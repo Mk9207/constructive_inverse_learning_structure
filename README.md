@@ -1,34 +1,53 @@
-# Constructive Inverse Learning Structure
+# 構成的逆学習構造
 
-This repository presents a formal theory of **Constructive Inverse Learning**, which aims to reverse the direction of knowledge acquisition. Instead of learning from data to model, we reconstruct the *hypotheses from results*, based on constructive principles.
-
----
-
-## 🧠 Concept Summary
-
-- Traditional learning:  
-  **data → representation → hypothesis**  
-- Inverse learning:  
-  **result → constructive logic → generative hypothesis**
-
-This approach is deeply connected to inverse problems, AI inference, and intuitive reasoning, and can enhance fields such as mathematical discovery, model explainability, and autonomous deduction.
+このリポジトリは、知識獲得の方向を逆転させることを目的とした**構成的逆学習**の理論と再構成フレームを提示します。  
+データから学ぶのではなく、仮説・帰結から「構成の論理」を再帰的に生成するアプローチを通じて、数学的発見・AI推論・創造的AIにおける知の生成プロセスを強化します。
 
 ---
 
-## 📁 Repository Contents
+## 🧩 コンセプト概要
 
-constructive_inverse_learning_structure/ ├── README.md                 # This file ├── LICENSE                  # MIT License ├── upload_to_github.sh      # Upload automation script ├── sections/ │   ├── definition.md        # Formal definition of inverse learning │   ├── principles.md        # Axioms and logical rules │   ├── implementation.md    # Reconstructive algorithms │   └── examples.md          # Demonstrative cases
+- 従来の学習：  
+　データ → 表現 → 仮説  
+- 構成的逆学習：  
+　仮説・結果 → 構成理論 → 生成的仮説  
 
----
-
-## 📌 Key Contributions
-
-- Defines *inverse learning* as a constructive, logic-based process
-- Demonstrates reproducible implementation via structured markdown sections
-- Supports downstream applications: meta-reasoning, creative AI, mathematical automation
+この手法は、**直観的推論・逆問題・形式構成**に関連し、知識構築の可逆モデルや数学的説明可能性にも寄与します。
 
 ---
 
-## 🔖 License
+## 📁 リポジトリの内容
 
-This project is licensed under the MIT License – see the `LICENSE` file for details.
+- `constructive_inverse_learning_structure/`  
+  - `README.md`：本ドキュメント  
+  - `LICENSE`：MITライセンス  
+  - `upload_to_github.sh`：アップロード自動化スクリプト  
+  - `sections/`：理論構成文書群  
+    - `definition.md`：逆学習の形式定義  
+    - `practices.md`：公理と論理規則  
+    - `implementation.md`：単純形式アルゴリズム  
+    - `examples.md`：デモシナリオ例  
+
+---
+
+## 🔧 主な貢献
+
+- 逆学習を論理的に再構成するフレームワークの提供  
+- 再現可能な理論・形式・構成記述による自動実装の基盤化  
+- メタ推論・教育AI・知識自動化などへの応用可能性
+
+---
+
+## 🧠 応用例
+
+- 教育AIにおける「仮説的学習」支援エージェント  
+- 数学的帰納による形式生成支援AI  
+- AIによる逆問題の定式化と問題発見支援  
+- 創造的AIにおける仮説主導の構成学習アプローチ  
+- ヒト思考再現系AIの学習テンプレート最適化
+
+---
+
+## 🔖 ライセンス
+
+このプロジェクトは MIT ライセンスの下で提供されています。詳細は `LICENSE` を参照してください。
